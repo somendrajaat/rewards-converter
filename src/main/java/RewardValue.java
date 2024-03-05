@@ -5,7 +5,7 @@ public class RewardValue {
             this.CashValue=CashValue;
     }
     public String getMilesValue() {
-        double card=(83.3334*CashValue);
+        double card=(CashValue/0.0035);
         System.out.println(card);
         return String.valueOf(card);
     }
